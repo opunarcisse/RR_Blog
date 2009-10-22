@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="43758b75-71a5-48ff-8ae7-5859e588c2b6" kpf_version="4" name="FirstRailsAime.kpf">
+<file id="f49ad711-e37a-45b5-a23a-2aa63f84d32f" idref="43758b75-71a5-48ff-8ae7-5859e588c2b6/public" name="favicon.ico" url="file:///home/lordcez/Desktop/favicon.ico">
+</file>
+<preference-set idref="43758b75-71a5-48ff-8ae7-5859e588c2b6">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>

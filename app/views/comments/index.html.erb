@@ -1,0 +1,18 @@
+<% title "comments for ' #{@post.title} '" %>
+
+<p>
+
+<%= link_to "new comment", new_post_comment_path %>
+
+</p>
+
+<% for comment in @comments do %>
+
+<strong><%= comment.commenter %></strong>
+<%= comment.commenter %>
+<%= simple_format comment.body %>
+
+<hr/>
+
+<%end%>
+

@@ -1,0 +1,10 @@
+<p>
+    <%= link_to " new comment", new_post_comment_path(@post) %>
+</p>
+
+<% for comment in @comments do %>
+<strong> Commenter </strong>
+<%= comment.commenter %>
+<%= simple_format comment.body %>
+<hr/>
+<%end%>

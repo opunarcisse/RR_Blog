@@ -1,0 +1,23 @@
+<h1>Listing posts</h1>
+
+
+  
+    <h2>Title: This is my world</h2>
+    <h2>Body</h2>
+ 
+
+<% @posts.each do |post| %>
+
+    <p><%=h post.title %></p>
+    <p><%=h post.body %></p>
+    
+    <%= link_to 'Show', post %>
+    <%= link_to 'Edit', edit_post_path(post) %>
+    <%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %>
+ 
+<% end %>
+
+
+<br />
+
+<%= link_to 'New post', new_post_path if logged_in? %>
