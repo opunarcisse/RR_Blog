@@ -25,6 +25,17 @@ Rails.  You can read more about Action Pack in
 link:files/vendor/rails/actionpack/README.html.
 
 
+h1. ==   HERE IS THE DESCRIPTION OF THIS APPLICATION    ==
+
+p. this application was developed to test my programing skills wiht ruby on rails. It basically a simple blog where blog user
+can read post and post comments to specefic posts.
+It also has some authenticatiom engine.
+It hope this will help other ruby beginners
+
+
+Copyright Opu Narcisse 2009
+
+
 == Getting Started
 
 1. At the command prompt, start a new Rails application using the <tt>rails</tt> command
