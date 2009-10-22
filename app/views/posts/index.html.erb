@@ -8,8 +8,8 @@
 
 <% @posts.each do |post| %>
 
-    <p><%=h post.title %></p>
-    <p><%=h post.body %></p>
+    <p><%= textilize post.title %></p>
+    <p><%= textilize post.body %></p>
     
     <%= link_to 'Show', post %>
     <%= link_to 'Edit', edit_post_path(post) %>
